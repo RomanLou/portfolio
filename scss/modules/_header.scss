@@ -1,0 +1,45 @@
+.header {
+	background: url(../images/headerbg.svg) no-repeat top center;
+	background-size: cover;
+	height: 100vh;
+
+	&__wrapper {
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		justify-content: space-between;
+		height: 100%;
+	}
+	
+	&__creed {
+		font: 700 110px/103px $font-title;
+		color: #abe0ff;
+		width: 46%;
+		margin: 70px;
+	}
+
+	&__scroll {
+		align-self: flex-end;
+		margin-bottom: 70px;
+
+		&:hover {
+			animation: bounce .7s  forwards;
+		}		
+
+		&-img {
+			height: 215px;
+		}
+	}
+}
+
+@keyframes bounce {
+	0% {
+		margin-bottom: 70px;
+	}
+
+	100% {
+		margin-bottom: 55px;
+	}
+}

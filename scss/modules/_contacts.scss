@@ -1,0 +1,59 @@
+.contacts {
+
+	&__text {
+		text-align: center;
+		margin: -230px 0 60px;
+
+		&--semibold {
+			font-weight: 600;
+			display: block;
+		}
+	}
+	
+	&__buttons-wrapper {
+		background: -webkit-linear-gradient(rgba(255,255,255,0) 0%, rgba(255,255,255,0) 27%, rgba(255,255,255,1) 74%, rgba(255,255,255,1) 99%);
+		background: -o-linear-gradient(rgba(255,255,255,0) 0%, rgba(255,255,255,0) 27%, rgba(255,255,255,1) 74%, rgba(255,255,255,1) 99%);
+		background: linear-gradient(rgba(255,255,255,0) 0%, rgba(255,255,255,0) 27%, rgba(255,255,255,1) 74%, rgba(255,255,255,1) 99%)	;;
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 );
+		text-align: center;
+		padding: 105px 0 55px 0;
+	}
+	
+	&__form-button {
+		background: #d1bfff;
+		border: 1px solid #9f96d2;
+		border-radius: 10px;
+		font: 300 24px/24px $font-main;
+		color: $main-color;
+		padding: 17px;
+		cursor: pointer;
+		width: 67%;
+		margin: 0 auto 120px;
+	}
+	
+	&__social {
+
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;	
+		align-items: center;
+		justify-content: center; 
+
+		&-link {
+			height: 50px;
+			margin: 0 9%;	
+
+			&:last-child {
+				height: 40px;
+			}
+		}
+
+		&-img {
+			height: 100%;
+		}		
+	}
+
+
+}

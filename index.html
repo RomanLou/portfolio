@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Design landing">
+	<meta name="author" content="RomaLou">
+	<title>WebSpace</title>
+
+	<link rel="icon" href="images/favicon.png">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600|Oswald:400,700" rel="stylesheet">
+	<link rel="stylesheet" href="css/styles.min.css">
+
+	<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<nav class="menu">
+		<ul class="menu__list">
+			<li class="menu__item">
+				<a href="#home" class="menu__link">
+					<img src="images/home.svg" alt="home" class="menu__img">
+					<span class="menu__text">Home</span>
+				</a>
+			</li>
+			<li class="menu__item">
+				<a href="#about" class="menu__link">
+					<img src="images/about.svg" alt="about" class="menu__img">
+					<span class="menu__text">About</span>
+				</a>
+			</li>
+			<li class="menu__item">
+				<a href="#works" class="menu__link">
+					<img src="images/works.svg" alt="works" class="menu__img">
+					<span class="menu__text">Works</span>
+				</a>
+			</li>
+			<li class="menu__item">
+				<a href="#contacts" class="menu__link">
+					<img src="images/alien.svg" alt="contact" class="menu__img">
+					<span class="menu__text">Contact us</span>
+				</a>
+			</li>
+		</ul>
+	</nav>
+	<header class="header" id="home">
+		<div class="container header__wrapper">
+			<h1 class="header__creed">Explore the Web Space with us</h1>
+			<a href="#about" class="header__scroll">
+				<img src="images/scroll-down.svg" alt="scroll" class="header__scroll-img">
+			</a>
+		</div>
+	</header>
+	<section class="about gradient" id="about">
+		<div class="container">
+			<div class="row">
+				<div class="col-10 offset-1">
+					<p class="about__description">Web Space is a creative studio that is specialized in brand strategy and digital creation. We will work with you to design your brand identity and make it evolve in a consistent and modern fashion on each and modern</p>
+				</div>
+			</div>
+			<h2 class="title">We guarantee</h2>
+			<ul class="about__list row">
+				<li class="about__item col-4">
+					<img src="images/cow.svg" alt="cow" class="about__img">
+					<p class="about__text">User-centered creativity</p>
+				</li>
+				<li class="about__item col-4"">
+					<img src="images/solutions.svg" alt="solutions" class="about__img">
+					<p class="about__text">Innovative, modern and aesthetic solutions</p>
+				</li>
+				<li class="about__item col-4"">
+					<img src="images/strategy.svg"" alt="strategy" class="about__img">
+					<p class="about__text">Digital strategy</p>
+				</li>
+			</ul>
+		</div>
+	</section>
+	<section class="works" id="works">
+		<div class="container">
+			<h2 class="title">Our works</h2>
+			<div class="works__wrapper works__wrapper--left">
+				<figure class="works__item">
+					<div class="row">
+						<div class="col-10">
+							<figcaption class="works__caption">Page for depilation beauty studio</figcaption>
+							<img src="images/sugarmain.jpg" alt="sugar" class="works__img-main">
+						</div>
+					</div>
+					<img src="images/sugar2.jpg" alt="sugar" class="works__img-second works__img-second--oval">
+				</figure>
+				<a href="#" class="works__link">View more</a>
+			</div>
+			<div class="works__wrapper works__wrapper--right">
+				<figure class="works__item">
+					<div class="row">
+						<div class="col-9 offset-3">
+							<figcaption class="works__caption">Landing for the flower shop event</figcaption>
+							<img src="images/hortensia.jpg" alt="hortensia" class="works__img-main">
+						</div>
+					</div>
+					<img src="images/hortensia2.jpg" alt="hortensia" class="works__img-second works__img-second--round">
+				</figure>
+				<a href="#" class="works__link">View more</a>
+				<div class="clear"></div>
+			</div>
+			<div class="works__wrapper works__wrapper--left">
+				<figure class="works__item">
+					<div class="row">
+						<div class="col-9">
+							<figcaption class="works__caption">Sourse for the Archery Federation of Poltava</figcaption>
+							<img src="images/archery.jpg" alt="archery" class="works__img-main">
+						</div>
+					</div>
+					<img src="images/archery2.jpg" alt="archery" class="works__img-second works__img-second--square">
+				</figure>
+				<a href="#" class="works__link">View more</a>
+			</div>
+		</div>
+	</section>
+	<section class="contacts gradient" id="contacts">
+		<div class="container">
+			<p class="contacts__text col-10 offset-1">If you have any questions or just want to say hello don't hesitate to get in contact! Find us on Facebook, Instagram, or simply <b class="contacts__text--semibold">brief us!</b></p>			
+			<p class="link">Do you want to</p>
+			<form action="#" id="form" class="contacts__form">
+				<div class="contacts__radio">
+					<label class="contacts__radio-item"><input type="radio" name="answer" value="0" checked>Collaborate</label>
+					<label class="contacts__radio-item"><input type="radio" name="answer" value="1">Make an order</label>
+				</div>
+				<div class="row">
+					<div class="contacts__fields col-5">
+						<input type="text" name="name" class="contacts__form-field" placeholder="Your Name">
+						<input type="email" name="email" class="contacts__form-field" placeholder="Your Email">
+					</div>
+					<div class="contacts__fields col-6 offset-1">
+						<textarea name="message" cols="30" rows="10" placeholder="Your Message"></textarea>
+					</div>
+				</div>
+				<div class="row">
+					<div class="contacts__buttons-wrapper col-6 offset-3">
+						<button type="submit" class="contacts__form-button">Send Message</button>
+						<div class="contacts__social">
+							<a href="#" class="contacts__social-link">
+								<img src="images/fb.svg" alt="fb" class="contacts__social-img">
+							</a>
+							<a href="#" class="contacts__social-link">
+								<img src="images/in.svg" alt="insta" class="contacts__social-img">
+							</a>
+							<a href="#" class="contacts__social-link">
+								<img src="images/be.svg" alt="behance" class="contacts__social-img">
+							</a>
+						</div>	
+					</div>					
+				</div>
+			</form>
+		</div>
+	</section>
+<!-- LiveReload Script -->
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+<script
+ src="https://code.jquery.com/jquery-3.3.1.min.js"
+ integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+ crossorigin="anonymous"></script>
+ <script>
+ 	$('a').click(function(){
+	    $('html, body').animate({
+	        scrollTop: $( $.attr(this, 'href') ).offset().top
+	    }, 500);
+	    return false;
+	});
+ </script>
+</body>
+</html>

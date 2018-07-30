@@ -1,0 +1,19 @@
+.about {
+	padding: 65px 0 165px;
+	text-align: center;
+
+	&__description {
+		padding: 0 15px;
+		margin-bottom: 75px;
+	}
+
+	&__img {
+		height: 120px;
+	}
+
+	&__text {
+		font-size: 18px;
+		padding: 0 20%;
+		margin-top: 80px;
+	}
+}

@@ -1,0 +1,49 @@
+.menu {
+	@include pos(fixed, $t: 0, $l: 0, $z: 1);
+	@include size(75px, 100%);
+	background: rgba(0, 0, 35, .8);
+	text-align: center;
+	
+	&__list {
+		@include pos($b: 40px, $l: 0);
+		width: 100%;
+	}
+
+	&__item {
+		position: relative;
+		margin-top: 40px;
+		height: 37px;
+		line-height: 37px;
+	}
+
+	&__link {
+		text-decoration: none;
+		width: 100%;
+		display: block;
+
+		&:hover  {
+			.menu__text {
+				left: 75px;         		//change places with &__text
+				opacity: 1;					//change places with &__text
+				visibility: visible;		//change places with &__text
+			}
+		}
+	}
+
+	&__text {
+		@include pos($t: 50%, $l: 30px);
+		@include font(18px, $fl: 28px);
+		@include size(115px, 30px);
+		background: rgba(22, 36, 88, .5);
+		color: #abe0ff;
+		border-radius: 3px;
+		transition: all .2s ease-in-out;
+		margin-top: -15px;
+		opacity: 0;
+		visibility: hidden;
+	}
+
+	&__img {
+		height: 37px;
+	}
+}
