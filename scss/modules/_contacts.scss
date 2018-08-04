@@ -1,12 +1,63 @@
 .contacts {
 
+	&__subtitle {
+
+		display: inline-block;
+		position: relative;
+		
+		&::before {
+			@include size(210%, 1px);
+			@include pos($b: 9px, $l: -70%);
+			content: '';
+			background: #000047;
+		}
+	}	
+
 	&__text {
 		text-align: center;
-		margin: -230px 0 60px;
+		margin-top: -230px; 
+		margin-bottom: 60px;
 
 		&--semibold {
 			font-weight: 600;
 			display: block;
+		}
+	}
+	&__radio {
+		padding: 40px 0 80px;
+		display: flex;
+		justify-content: flex-end;
+		
+		&-item {
+		font-size: 30px;
+		margin-left: 210px;
+		cursor: pointer;
+
+			&:before{
+				@include size(22px);
+				content:'';
+				background: url(../images/buttonoff.svg) no-repeat center center;
+				
+			}
+		}
+
+		&-hide{
+			display: none;
+		}
+	}	
+
+	&__form-field {
+		min-width: 100%;
+		font: 300 24px/58px $font-main;
+		color: $main-color;
+		padding: 0 35px;
+		border: solid 1px #c1c5d2;
+		border-radius: 10px;
+		margin-bottom: 60px;
+
+		&--text {
+			min-height: 180px;
+			resize: vertical;
 		}
 	}
 	
@@ -17,6 +68,7 @@
 		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 );
 		text-align: center;
 		padding: 105px 0 55px 0;
+		margin-top: -60px;
 	}
 	
 	&__form-button {
@@ -29,6 +81,10 @@
 		cursor: pointer;
 		width: 67%;
 		margin: 0 auto 120px;
+
+		&:hover {
+			background: #ade3ff;
+		}
 	}
 	
 	&__social {

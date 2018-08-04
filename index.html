@@ -119,12 +119,12 @@
 	</section>
 	<section class="contacts gradient" id="contacts">
 		<div class="container">
-			<p class="contacts__text col-10 offset-1">If you have any questions or just want to say hello don't hesitate to get in contact! Find us on Facebook, Instagram, or simply <b class="contacts__text--semibold">brief us!</b></p>			
-			<p class="link">Do you want to</p>
+			<p class="contacts__text col-10 offset-1">If you have any questions or just want to say hello don't hesitate to get in contact! Find us on Facebook, Instagram, or simply <b class="contacts__text--semibold">brief us!</b></p>
+			<p class="contacts__subtitle">Do you want to</p>			
 			<form action="#" id="form" class="contacts__form">
 				<div class="contacts__radio">
-					<label class="contacts__radio-item"><input type="radio" name="answer" value="0" checked>Collaborate</label>
-					<label class="contacts__radio-item"><input type="radio" name="answer" value="1">Make an order</label>
+					<label class="contacts__radio-item"><input type="radio" class="contacts__radio-hide" name="answer" value="0" checked>Collaborate</label>
+					<label class="contacts__radio-item"><input type="radio" class="contacts__radio-hide" name="answer" value="1">Make an order</label>
 				</div>
 				<div class="row">
 					<div class="contacts__fields col-5">
@@ -132,7 +132,7 @@
 						<input type="email" name="email" class="contacts__form-field" placeholder="Your Email">
 					</div>
 					<div class="contacts__fields col-6 offset-1">
-						<textarea name="message" cols="30" rows="10" placeholder="Your Message"></textarea>
+						<textarea name="message" class="contacts__form-field contacts__form-field--text" cols="10" rows="3" placeholder="Your Message"></textarea>
 					</div>
 				</div>
 				<div class="row">

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 510 510" style="enable-background:new 0 0 510 510;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+</style>
+<g id="radio-button-on">
+	
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="0" y1="1743" x2="510" y2="1743" gradientTransform="matrix(1 0 0 1 0 -1488)">
+		<stop  offset="0" style="stop-color:#AAE1FF"/>
+		<stop  offset="1" style="stop-color:#D0BFFF"/>
+	</linearGradient>
+	<path class="st0" d="M255,0C114.8,0,0,114.8,0,255s114.8,255,255,255s255-114.8,255-255S395.2,0,255,0z M255,459
+		c-112.2,0-204-91.8-204-204S142.8,51,255,51s204,91.8,204,204S367.2,459,255,459z"/>
+</g>
+</svg>
