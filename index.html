@@ -55,10 +55,10 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-10 offset-1">
-					<p class="about__description">Web Space is a creative studio that is specialized in brand strategy and digital creation. We will work with you to design your brand identity and make it evolve in a consistent and modern fashion on each and modern</p>
+					<p class="about__description">Web Space is a creative studio that is specialized in brand strategy and digital creation. We will work with you to design your brand identity and make it evolve in a consistent and modern fashion on each and every connected device.</p>
 				</div>
 			</div>
-			<h2 class="title">We guarantee</h2>
+			<h2 class="title title--grey">We guarantee</h2>
 			<ul class="about__list row">
 				<li class="about__item col-4">
 					<img src="images/cow.svg" alt="cow" class="about__img">
@@ -77,7 +77,7 @@
 	</section>
 	<section class="works" id="works">
 		<div class="container">
-			<h2 class="title">Our works</h2>
+			<h2 class="title title--purple">Our works</h2>
 			<div class="works__wrapper works__wrapper--left">
 				<figure class="works__item">
 					<div class="row">
@@ -117,22 +117,25 @@
 			</div>
 		</div>
 	</section>
-	<section class="contacts gradient" id="contacts">
+	<section class="contacts  gradient--bottom" id="contacts">
 		<div class="container">
 			<p class="contacts__text col-10 offset-1">If you have any questions or just want to say hello don't hesitate to get in contact! Find us on Facebook, Instagram, or simply <b class="contacts__text--semibold">brief us!</b></p>
-			<p class="contacts__subtitle">Do you want to</p>			
+			<h2 class="title">Do you want to</h2>			
 			<form action="#" id="form" class="contacts__form">
-				<div class="contacts__radio">
-					<label class="contacts__radio-item"><input type="radio" class="contacts__radio-hide" name="answer" value="0" checked>Collaborate</label>
-					<label class="contacts__radio-item"><input type="radio" class="contacts__radio-hide" name="answer" value="1">Make an order</label>
-				</div>
 				<div class="row">
-					<div class="contacts__fields col-5">
-						<input type="text" name="name" class="contacts__form-field" placeholder="Your Name">
-						<input type="email" name="email" class="contacts__form-field" placeholder="Your Email">
+					<div class="contacts__radio col-6 offset-3">
+						<input type="radio" class="contacts__radio-hide" name="answer" id="collaborate" value="0" checked>
+						<label class="contacts__radio-item" for="collaborate">Collaborate</label>
+
+						<input type="radio" class="contacts__radio-hide" name="answer" id="order" value="1">
+						<label class="contacts__radio-item" for="order">Make an order</label>
 					</div>
-					<div class="contacts__fields col-6 offset-1">
-						<textarea name="message" class="contacts__form-field contacts__form-field--text" cols="10" rows="3" placeholder="Your Message"></textarea>
+					<div class="contacts__fields col-6 offset-3">
+						<input type="text" name="name" class="contacts__form-field" id="name" placeholder="Your Name">
+						<input type="email" name="email" class="contacts__form-field" id="mail" placeholder="Your Email">
+					</div>
+					<div class="contacts__fields col-6 offset-3">
+						<textarea name="message" class="contacts__form-field contacts__form-field--text" cols="10" rows="3" id="message" placeholder="Your Message"></textarea>
 					</div>
 				</div>
 				<div class="row">
